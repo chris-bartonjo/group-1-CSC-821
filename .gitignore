@@ -12,3 +12,6 @@ env/
 # OS / editor
 .DS_Store
 .vscode/
+
+# Office temp/lock files
+~$*
