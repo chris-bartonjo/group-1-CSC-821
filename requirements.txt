@@ -5,11 +5,11 @@ ipykernel
 # Export a notebook to PDF or Word with tools/nb_export.py
 nbconvert
 pikepdf
+pypandoc_binary        # bundles pandoc, used for Word export
 
 # Used by some labs (e.g. FFT plots, Radix Sort charts)
 numpy
 matplotlib
 
-# Not installable with pip - install these separately:
-#   pandoc                           (for Word export)  ->  https://pandoc.org
-#   Google Chrome or Microsoft Edge  (for PDF export)
+# For PDF export you also need a browser already installed on your computer:
+#   Google Chrome or Microsoft Edge

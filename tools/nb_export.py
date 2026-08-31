@@ -1,8 +1,6 @@
 """
 nb_export.py - turn a Jupyter notebook (.ipynb) into a PDF or a Word file.
 
-CSC 821 - Group 1.  No LaTeX needed.
-
 HOW TO USE  (run these in a terminal, with your venv active):
 
     python nb_export.py my_notebook.ipynb            ->  makes my_notebook.pdf
@@ -77,11 +75,16 @@ def make_pdf(notebook, output):
 
 
 def make_word(notebook, output):
-    """pandoc reads .ipynb directly and writes a Word (.docx) file."""
+    """Make a Word (.docx) from the notebook. Uses pandoc, which reads .ipynb directly."""
     try:
-        subprocess.run(["pandoc", str(notebook), "-o", str(output)], check=True)
-    except FileNotFoundError:
-        sys.exit("Word export needs pandoc. Install it from https://pandoc.org")
+        import pypandoc                       # this package ships its own pandoc
+        pypandoc.convert_file(str(notebook), "docx", outputfile=str(output))
+    except ImportError:
+        # pypandoc not installed - fall back to a pandoc you installed yourself
+        try:
+            subprocess.run(["pandoc", str(notebook), "-o", str(output)], check=True)
+        except FileNotFoundError:
+            sys.exit("Word export needs pandoc. Run:  pip install -r requirements.txt")
     print("Made Word file:", output)
 
 
