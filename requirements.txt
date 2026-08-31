@@ -1,0 +1,15 @@
+# Run the notebooks in VS Code
+notebook
+ipykernel
+
+# Export a notebook to PDF or Word with tools/nb_export.py
+nbconvert
+pikepdf
+
+# Used by some labs (e.g. FFT plots, Radix Sort charts)
+numpy
+matplotlib
+
+# Not installable with pip - install these separately:
+#   pandoc                           (for Word export)  ->  https://pandoc.org
+#   Google Chrome or Microsoft Edge  (for PDF export)

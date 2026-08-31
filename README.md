@@ -57,12 +57,12 @@ Activate it:
 When it’s active you’ll see `(.venv)` at the start of your prompt.
 *(PowerShell blocking the script? Run once: `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`.)*
 
-### 6. Install Jupyter
-So VS Code can run the `.ipynb` notebooks in your venv:
+### 6. Install the requirements
+Installs Jupyter and the libraries the labs use, into your venv:
 ```bash
-pip install notebook ipykernel
+pip install -r requirements.txt
 ```
-*(A lab that needs extra libraries — e.g. `numpy`, `matplotlib` for the FFT module — lists them in its own folder.)*
+*(For Word export you also need **pandoc** (<https://pandoc.org>); for PDF export, **Google Chrome or Edge**.)*
 
 ---
 
