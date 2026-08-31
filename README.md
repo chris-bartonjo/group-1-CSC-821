@@ -6,15 +6,17 @@ merged into `main` at the end.
 
 ## Assigned modules
 
-Each module is on its own branch (click to open it on GitHub):
+Each module has a **folder** here on `main` (click to open it) and a **working branch** where it is developed:
 
-| Module | Topic | Branch | Status |
-|---|---|---|---|
-| 4 | Radix Sort | [module-4-Radix-Sort](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-4-Radix-Sort) |  not started |
-| 6 | Longest Common Subsequence (LCS) | [module-6-LCS](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-6-LCS) |  not started |
-| 7 | Huffman Coding | [module-7-Huffman-coding](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-7-Huffman-coding) | ✅ done |
-| 9 | FFT & Pattern Matching | [module-9-FFT-Pattern-Matching](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-9-FFT-Pattern-Matching) |  not started |
-| 10 | NP-Completeness | [module-10-NP-Completeness](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-10-NP-Completeness) |  not started |
+| Module | Topic | Folder | Working branch | Status |
+|---|---|---|---|---|
+| 4 | Radix Sort | [module-4-radix-sort](https://github.com/chris-bartonjo/group-1-CSC-821/tree/main/module-4-radix-sort) | `module-4-Radix-Sort` | starter |
+| 6 | Longest Common Subsequence (LCS) | [module-6-lcs](https://github.com/chris-bartonjo/group-1-CSC-821/tree/main/module-6-lcs) | `module-6-LCS` | starter |
+| 7 | Huffman Coding | [module-7-huffman-coding](https://github.com/chris-bartonjo/group-1-CSC-821/tree/main/module-7-huffman-coding) | `module-7-Huffman-coding` | done |
+| 9 | FFT & Pattern Matching | [module-9-fft-pattern-matching](https://github.com/chris-bartonjo/group-1-CSC-821/tree/main/module-9-fft-pattern-matching) | `module-9-FFT-Pattern-Matching` | starter |
+| 10 | NP-Completeness | [module-10-np-completeness](https://github.com/chris-bartonjo/group-1-CSC-821/tree/main/module-10-np-completeness) | `module-10-NP-Completeness` | starter |
+
+The **folder** links all work now (they live on `main`). The **working branch** is created when someone starts that module.
 
 ---
 

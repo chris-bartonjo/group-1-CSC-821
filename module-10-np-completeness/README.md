@@ -1,6 +1,6 @@
 # Module 10 — NP-Completeness
 
-**CSC 821 — Group 1** · Status:  not started
+**CSC 821 — Group 1** · Status: starter
 
 ## Lab: Exploring NP-Complete Problems and Reductions
 
