@@ -10,14 +10,11 @@ Each module is on its own branch (click to open it on GitHub):
 
 | Module | Topic | Branch | Status |
 |---|---|---|---|
-| 4 | Radix Sort | [module-4-Radix-Sort](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-4-Radix-Sort) | ⏳ not started |
-| 6 | Longest Common Subsequence (LCS) | [module-6-LCS](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-6-LCS) | ⏳ not started |
+| 4 | Radix Sort | [module-4-Radix-Sort](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-4-Radix-Sort) |  not started |
+| 6 | Longest Common Subsequence (LCS) | [module-6-LCS](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-6-LCS) |  not started |
 | 7 | Huffman Coding | [module-7-Huffman-coding](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-7-Huffman-coding) | ✅ done |
-| 9 | FFT & Pattern Matching | [module-9-FFT-Pattern-Matching](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-9-FFT-Pattern-Matching) | ⏳ not started |
-| 10 | NP-Completeness | [module-10-NP-Completeness](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-10-NP-Completeness) | ⏳ not started |
-
-*A branch link only works once that branch has been pushed — so far only **Module 7** exists.*
-Finished lab: **[module-7-huffman-coding/](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-7-Huffman-coding/module-7-huffman-coding)** (notebook + PDF).
+| 9 | FFT & Pattern Matching | [module-9-FFT-Pattern-Matching](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-9-FFT-Pattern-Matching) |  not started |
+| 10 | NP-Completeness | [module-10-NP-Completeness](https://github.com/chris-bartonjo/group-1-CSC-821/tree/module-10-NP-Completeness) |  not started |
 
 ---
 
@@ -38,15 +35,14 @@ In VS Code open **Extensions** (`Ctrl+Shift+X`) and install both (publisher: Mic
 - **Python**
 - **Jupyter**
 
-### 4. Clone the repo
+### 4. Clone the repo into a folder by opening a terminal window at the folder
 ```bash
 git clone https://github.com/chris-bartonjo/group-1-CSC-821.git
 cd group-1-CSC-821
 ```
 
-### 5. Create and activate a virtual environment (venv)
-A **venv** is a private package folder for this project, so its libraries don’t clash with the
-rest of your system.
+### 5. Create and activate a virtual environment (venv) 
+A **venv** is a private package folder for this project to keep your computer organized 
 ```bash
 python -m venv .venv
 ```
@@ -91,4 +87,4 @@ git add .
 git commit -m "Module 4: Radix Sort lab"
 git push -u origin module-4-Radix-Sort
 ```
-Open a pull request into `main` when your lab is ready — we merge everyone’s branch at the end.
+
