@@ -56,10 +56,12 @@ Activate it:
 When it’s active you’ll see `(.venv)` at the start of your prompt.
 *(PowerShell blocking the script? Run once: `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`.)*
 
-### 6. Install the requirements
+### 6. Install Jupyter
+So VS Code can run the `.ipynb` notebooks in your venv:
 ```bash
-pip install -r requirements.txt
+pip install notebook ipykernel
 ```
+*(A lab that needs extra libraries — e.g. `numpy`, `matplotlib` for the FFT module — lists them in its own folder.)*
 
 ### 7. (Optional) environment variables — `.env`
 These algorithm labs need no secrets, but if one ever needs configuration, copy the template:

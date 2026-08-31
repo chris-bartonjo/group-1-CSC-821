@@ -1,8 +1,0 @@
-# Run the lab notebooks
-notebook
-jupyter
-ipykernel
-
-# Used by some labs (FFT plots, Radix Sort visualisations)
-numpy
-matplotlib
