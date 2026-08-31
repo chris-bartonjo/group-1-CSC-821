@@ -73,18 +73,4 @@ pip install notebook ipykernel
 4. Top-right **Select Kernel** → choose the **.venv** Python.
 5. Click **Run All** (or step through with `Shift+Enter`).
 
-Each module folder also includes a **PDF** if you just want to read the finished notebook.
-
----
-
-## Working on your module (group members)
-```bash
-git checkout main
-git pull
-git checkout -b module-4-Radix-Sort        # your module's branch
-#   ... do the work inside module-4-radix-sort/ ...
-git add .
-git commit -m "Module 4: Radix Sort lab"
-git push -u origin module-4-Radix-Sort
-```
-
+Each module folder also includes a doc or pdf document for submission
