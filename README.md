@@ -68,13 +68,6 @@ pip install notebook ipykernel
 ```
 *(A lab that needs extra libraries — e.g. `numpy`, `matplotlib` for the FFT module — lists them in its own folder.)*
 
-### 7. (Optional) environment variables — `.env`
-These algorithm labs need no secrets, but if one ever needs configuration, copy the template:
-```bash
-cp .env.example .env      # Windows: copy .env.example .env
-```
-`.env` is git-ignored, so your local values are never committed.
-
 ---
 
 ## Run a lab notebook in VS Code
