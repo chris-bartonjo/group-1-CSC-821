@@ -1,6 +1,6 @@
 # Module 6 — Longest Common Subsequence (LCS)
 
-**CSC 821 — Group 1** · Status: starter
+**CSC 821 — Group 1** · Status: done
 
 ## Lab: Longest Common Subsequence (LCS)
 

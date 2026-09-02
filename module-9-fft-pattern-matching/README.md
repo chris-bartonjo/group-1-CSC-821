@@ -1,6 +1,6 @@
 # Module 9 — FFT & Pattern Matching
 
-**CSC 821 — Group 1** · Status: complete
+**CSC 821 — Group 1** · Status: done
 
 ## Lab: Fast Fourier Transform (FFT) and Pattern Matching Algorithms
 

@@ -15,3 +15,7 @@ env/
 
 # Office temp/lock files
 ~$*
+
+# stray plot artifacts from running scripts at the repo root
+/fft_group.png
+/fft_signal_spectrum.png

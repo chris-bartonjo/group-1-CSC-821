@@ -1,6 +1,6 @@
 # Module 4 — Radix Sort
 
-**CSC 821 — Group 1** · Status: starter
+**CSC 821 — Group 1** · Status: done
 
 ## Lab: Implementing and Analyzing Radix Sort
 
