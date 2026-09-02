@@ -1,5 +1,7 @@
 # CSC 821 — Module 6: Longest Common Subsequence (Group 1)
 
+**CSC 821 — Group 1** · Status: done
+
 Lab activity: a Python implementation of the **Longest Common Subsequence** using **dynamic
 programming** — fill the DP table, read the length off the bottom-right cell, and trace the actual
 subsequence back out — with the table printed step by step, a demonstration of why the table beats
