@@ -26,6 +26,7 @@ solver with sample input/output.
 | 14 | Patrick Mwangi Wanjiru | ST62/59698/2025 |
 | 15 | Stephen Mwangi Mumbi | ST62/59653/2025 |
 | 16 | Abisagy Nafula Wanyonyi | ST62/56881/2025 |
+| 17 | Christopher Bartonjo | ST62/60293/2025 |
 
 **Roles.** The group worked collaboratively: members shared the problem research and the write-up of
 the definition, the NP-completeness argument, and the 3-SAT reduction, while others focused on the
